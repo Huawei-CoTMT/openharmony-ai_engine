@@ -28,6 +28,7 @@ const std::string ALGORITHM_ID_SAMPLE_2 = "sample_plugin_2";
 const std::string ALGORITHM_ID_KWS = "asr_keyword_spotting";
 const std::string ALGORITHM_ID_IC = "cv_image_classification";
 const std::string ALGORITHM_ID_RC = "cv_card_rectification";
+const std::string ALGORITHM_ID_DEMO_XXXX = "cv_demo_xxxx";
 const std::string ALGORITHM_ID_INVALID = "invalid algorithm id";
 
 // Defines the key value of the table field in the .ini file.
@@ -47,6 +48,7 @@ const std::vector<std::string> ALGORITHM_TYPE_ID_LIST = {
     ALGORITHM_ID_SAMPLE_2,
     ALGORITHM_ID_KWS,
     ALGORITHM_ID_IC,
+    ALGORITHM_ID_DEMO_XXXX,
     ALGORITHM_ID_RC,
 };
 
