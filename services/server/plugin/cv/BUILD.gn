@@ -14,7 +14,10 @@ import("//build/lite/config/component/lite_component.gni")
 
 lite_component("cv") {
   if (board_name == "hispark_taurus") {
-    features = [ "image_classification:cv_image_classification" ]
+    features = [
+        "image_classification:cv_image_classification",
+        "demo_xxxx:cv_demo_xxxx"
+    ]
   } else {
     features = []
   }
